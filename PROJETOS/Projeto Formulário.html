@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Formalário</title>
+</head>
+    <style>
+        
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h5 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        hr {
+            height: 10px;
+            background-color: black;
+        }
+
+        div {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color:darkgray;
+            color: white;  
+                  
+        }
+      
+
+    </style>
+
+<body>
+    
+    <h1 align="center">Formulário de Pesquisa</h1>
+    <h5 align="center">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</h5>
+    
+    <hr>
+
+    <section align="center">
+        <div>
+            <label> Nome: </label>
+                <input placeholder="Insira seu nome" type="text" name="Nome" id=""><br><br>
+        </div>
+        <div>
+            <label>E-mail</label>
+                <input placeholder="Insira seu e-mail" type="email" name="Email" id=""><br><br>
+        </div>
+        <div>
+            <label>Idade:</label>
+                <input placeholder="Idade" type="text" name="Idade" id=""> <br><br>
+        </div>
+        <div>
+            <label>Qual opção melhor descreve sua função atual?</label><br>
+            <select>
+                <optgroup>
+                    <option value="Estudante">Estudante</option>
+                    <option value="Trabalhando">Trabalhando</option>
+                    <option value="Procurando Emprego">Procurando Emprego</option>
+                </optgroup>
+            </Select><br><br>
+        </div>
+        <div>
+            <label>Você recomendaria a empresa PROCURANDOJOBS?</label><br>
+                <input type="radio" name="Com certeza" id="">Com certeza <br>
+                <input type="radio" name="Talvez" id="">Talvez <br>
+                <input type="radio" name="Não" id="">Não <br><br>
+        </div>
+        <div>
+            <label>Qual a área que você mais se identifica</label><br>
+                <input type="checkbox" name="Front-End" id="">Front-End <br>
+                <input type="checkbox" name="Back-End" id="">Back-End <br>
+                <input type="checkbox" name="Data Science" id=""> Data Science <br><br>
+        </div>
+        <div>
+            <label>Algum Comentário ou Sugestão?</label><br>
+            <textarea name="Sugestão" id="" cols="25" rows="8"></textarea><br><br>
+        </div>
+            
+        <input type="button" value="Enviar">
+            
+        </div>
+    </section>
+
+        
+</body>
+</html>
