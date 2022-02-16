@@ -7,6 +7,11 @@
     <title>Projeto Formalário</title>
 </head>
     <style>
+
+        body{
+            background-image: url(fundo.png);
+            background-size: 100%;
+        }
         
         h1 {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,12 +27,23 @@
 
         div {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            background-color:darkgray;
-            color: white;  
-                  
+            background-color:rgb(39, 30, 128);
+            color: white; 
+            margin: auto;
+            width: 50%; 
+            padding: 5px;                  
+        }
+        #botao{
+            background-color: white;
+            width: 150px;
+            height: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }   
+        #botao:hover {
+            background-color: rgb(47, 194, 27);
+            cursor: pointer;
         }
       
-
     </style>
 
 <body>
@@ -62,9 +78,9 @@
         </div>
         <div>
             <label>Você recomendaria a empresa PROCURANDOJOBS?</label><br>
-                <input type="radio" name="Com certeza" id="">Com certeza <br>
-                <input type="radio" name="Talvez" id="">Talvez <br>
-                <input type="radio" name="Não" id="">Não <br><br>
+                <input id="recomendar" type="radio" name="Com certeza" >Com certeza <br>
+                <input id="recomendar"  type="radio" name="Talvez" >Talvez <br>
+                <input id="recomendar"  type="radio" name="Não" >Não <br><br>
         </div>
         <div>
             <label>Qual a área que você mais se identifica</label><br>
@@ -74,11 +90,10 @@
         </div>
         <div>
             <label>Algum Comentário ou Sugestão?</label><br>
-            <textarea name="Sugestão" id="" cols="25" rows="8"></textarea><br><br>
+            <textarea name="Sugestão" id="" cols="45" rows="8"></textarea><br><br>
         </div>
-            
-        <input type="button" value="Enviar">
-            
+        <div>            
+        <input id="botao"type="button" value="Enviar" target="_blank">            
         </div>
     </section>
 
