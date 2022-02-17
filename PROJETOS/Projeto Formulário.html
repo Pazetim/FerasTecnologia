@@ -31,8 +31,15 @@
             color: white; 
             margin: auto;
             width: 50%; 
-            padding: 5px;                  
+            padding: 5px; 
+            border: solid 4px red; 
         }
+
+        input{
+            border-radius: 5px 0px 0px 5px;
+            
+        }
+
         #botao{
             background-color: white;
             width: 150px;
@@ -57,16 +64,13 @@
         <div>
             <label> Nome: </label>
                 <input placeholder="Insira seu nome" type="text" name="Nome" id=""><br><br>
-        </div>
-        <div>
+        
             <label>E-mail</label>
                 <input placeholder="Insira seu e-mail" type="email" name="Email" id=""><br><br>
-        </div>
-        <div>
+        
             <label>Idade:</label>
                 <input placeholder="Idade" type="text" name="Idade" id=""> <br><br>
-        </div>
-        <div>
+        
             <label>Qual opção melhor descreve sua função atual?</label><br>
             <select>
                 <optgroup>
@@ -75,24 +79,22 @@
                     <option value="Procurando Emprego">Procurando Emprego</option>
                 </optgroup>
             </Select><br><br>
-        </div>
-        <div>
+        
             <label>Você recomendaria a empresa PROCURANDOJOBS?</label><br>
                 <input id="recomendar" type="radio" name="Com certeza" >Com certeza <br>
                 <input id="recomendar"  type="radio" name="Talvez" >Talvez <br>
                 <input id="recomendar"  type="radio" name="Não" >Não <br><br>
-        </div>
-        <div>
+        <
             <label>Qual a área que você mais se identifica</label><br>
-                <input type="checkbox" name="Front-End" id="">Front-End <br>
-                <input type="checkbox" name="Back-End" id="">Back-End <br>
-                <input type="checkbox" name="Data Science" id=""> Data Science <br><br>
-        </div>
-        <div>
+                <input type="checkbox" name="Front-End" id="ok">Front-End <br>
+                <input type="checkbox" name="Back-End" id="ok">Back-End <br>
+                <input type="checkbox" name="Data Science" id="ok"> Data Science <br><br>
+        
+        
             <label>Algum Comentário ou Sugestão?</label><br>
             <textarea name="Sugestão" id="" cols="45" rows="8"></textarea><br><br>
-        </div>
-        <div>            
+        
+                  
         <input id="botao"type="button" value="Enviar" target="_blank">            
         </div>
     </section>
