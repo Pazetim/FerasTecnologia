@@ -1,6 +1,6 @@
 body {
     display: flex;
-    text-align: center;
+    text-align: center;    
     align-items: center;
     flex-direction: column;
     background-color: aqua;
@@ -20,6 +20,7 @@ input{
 
 #form {
     width: 40%;
+    
 }
 
 button {
@@ -37,10 +38,10 @@ button:hover{
     background-color: rgba(14, 110, 38, 0.623);
 }
 
-#feito{
-    font-size: 20px;
-    border: solid;
-    
+#imgcalc {
+    margin-right: 80%;
+    justify-content: center;
+     
 }
 
 
