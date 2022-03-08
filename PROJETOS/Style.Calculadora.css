@@ -3,12 +3,13 @@ body {
     text-align: center;    
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(34, 34, 34);
 }
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
+    color: white;
 }
 
 input{
@@ -24,7 +25,7 @@ input{
 }
 
 button {
-    background-color: black;
+    background-color: rgba(13, 7, 7, 0.692);
     color: white;
     border: 10px;
     width: 100%;
@@ -37,11 +38,4 @@ button:hover{
     cursor: pointer;
     background-color: rgba(14, 110, 38, 0.623);
 }
-
-#imgcalc {
-    margin-right: 80%;
-    justify-content: center;
-     
-}
-
 
