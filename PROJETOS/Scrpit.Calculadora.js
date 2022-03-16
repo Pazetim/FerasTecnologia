@@ -29,8 +29,5 @@ function calcular(n1, n2){
                 document.getElementById("resultado").innerHTML = `O RESULTADO DA MULTIPLICAÇÃO DE ${n1} x ${n2}  = ${calculo}`
                 break
     }        
-
-    
-
 }
 
