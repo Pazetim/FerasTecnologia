@@ -4,6 +4,10 @@
         flex-direction: column;
     }
 
+    .tittle{
+        flex-direction: column;
+    }
+
     main {
         flex-direction: column;
     }
